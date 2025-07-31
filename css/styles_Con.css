@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+body, html {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e0d7d7;
+    font-family: 'Poppins', sans-serif;
+}
+
+.todo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    display: flex;
+    width: 800px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+}
+
+.image-section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-right: 20px;
+    margin-left: 100px;
+}
+
+.image-section img {
+    max-width: 100%;
+    height: auto;
+}
+
+.form-section {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #c8102e;
+}
+
+.form-row {
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.form-column {
+    width: 100%;
+}
+
+.input-container {
+    position: relative;
+    width: 100%;
+}
+
+.icon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 10px;
+    color: #030202;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: calc(100% - 40px);
+    padding: 10px;
+    padding-left: 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #c8102e;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.btn:hover {
+    background-color: #a10e22;
+}
+.error {
+    color: red;
+    font-size: 0.8em; 
+    margin-top: 2px; 
+    display: block; 
+}

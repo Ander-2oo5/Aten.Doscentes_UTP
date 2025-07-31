@@ -1,0 +1,4 @@
+Nombre: Aaron, Apellido: Silva, Modalidad: Presencial, Tipo de taller: TIC, Fecha de inscripción: 2024-06-29, Celular: 933070052, DNI: 72549148, Email: u22234385@utp.edu.pe, Campus: Chimbote
+Nombre: Ander, Apellido: Flores, Modalidad: Presencial, Tipo de taller: Estudio, Fecha de inscripción: 2024-07-04, Celular: 923586104, DNI: 14530258, Email: u223@utp.edu.pe, Campus: Chimbote
+Nombre: Adrian, Apellido: Sandoval Ballona, Modalidad: Virtual, Tipo de taller: TIC, Fecha de inscripción: 2024-06-30, Celular: 912077181, DNI: 73666349, Email: sandovalballona@utp.edu.pe, Campus: LCentro
+Nombre: Adrian, Apellido: Sandoval Ballona, Modalidad: Virtual, Tipo de taller: Estudio, Fecha de inscripción: 2024-08-01, Celular: 912077181, DNI: 73666349, Email: jcjkjxkc@utp.edu.pe, Campus: LNorte

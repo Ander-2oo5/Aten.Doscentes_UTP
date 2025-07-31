@@ -1,0 +1,3 @@
+Adrian,Sandoval Ballona,912077181,AdrianSandoval@utp.edu.pe,adrian321,adrian321
+Erick,Mendoza Ballona,987654321,ErickMendoza@utp.edu.pe,erick321,erick321
+Andersson,Flores Ruiz,912077181,andersonflores@utp.edu.pe,ander120,ander120

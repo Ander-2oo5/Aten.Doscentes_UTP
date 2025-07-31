@@ -1,0 +1,419 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    color: #333;
+}
+.contenedor_1 {
+    position: relative;
+    background-image: url("../Imagenes/fondo_intro.jpg");
+    background-size: cover;
+    background-position: center;
+    text-align: left;
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 363px;
+    color: white; 
+    overflow: hidden;
+}
+
+.contenedor_2{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.intro::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.encabezado {
+    position: relative;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 5px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    background-color: #c8102e;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #333;
+}
+
+.logo_utp {
+    float: left;  
+    width: 170px; 
+    height: auto; 
+    margin-top: -21px;
+}
+
+.intro p {
+    font-family: sans-serif;
+    position: relative;
+    margin: 0;
+    font-size: 28px;
+    border-style: solid;
+    border-color: transparent;
+    width: 70%;
+    margin-bottom: -100px;
+    margin-top: 100px;
+}
+
+/*------------------------*/
+section {
+    padding: 20px;
+    margin: 0;
+    background-color: #fff;
+}
+
+.main_section {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    flex-wrap: nowrap; /* Evita que las columnas se desordenen en pantallas grandes */
+    background-color: #04142c;
+    
+}
+
+.column {
+    background-color: #fff;
+    width: 30%;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+}
+
+section ul li {
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+/*------------------------------------*/
+.footer {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 250px;
+    margin: 10px;
+}
+
+.footer-section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.campus-links a {
+    color: #fff;
+}
+
+.contact a,
+.hours p {
+    color: #fff;
+}
+
+.campus-links a:hover,
+.contact a:hover {
+    text-decoration: underline;
+}
+
+.buttons button {
+    display: block;
+    background-color: #fff;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.buttons button:hover {
+    background-color: #ddd;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    border-top: 1px solid #444;
+    padding-top: 20px;
+}
+
+.social-links a {
+    margin-right: 10px;
+}
+
+.legal-links a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.legal-links a:hover {
+    text-decoration: underline;
+}
+
+.legal-links img {
+    vertical-align: middle;
+}
+
+/*------------------------------------*/
+.main_section_3 {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #ffffff;
+    color: #000000;
+    margin: 0;
+    background-image: url("../Imagenes/fondo_2.png");
+    
+    background-size: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.Info_Prof{
+    font-size: 20px;
+    font-weight: normal; 
+    text-align: justify;
+    padding: 20px;
+}
+.not {
+    position: relative;
+    padding-left: 25px; 
+}
+.not::before {
+    content: "|";
+    position: absolute;
+    color: #c8102e;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.column3 {
+    background-color: #fff;
+    width: 30%;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+}
+
+.column4{
+    display: inline-block;
+    background-color: #fff;
+    width: 28%;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+}
+
+/*-----------------------*/
+.contenedor_3{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.ultima_section{
+    background-color: #d1d1d1;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/*-----------------------*/
+#button {
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    background-color: #c8102e;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    /* PARA COLOCAR UNA IMAGEN AL LADO */
+    background-image: url("../Imagenes/ref_taller.gif");
+    background-position: right center;
+    background-size: 50px;
+    padding-right: 60px;
+    /* Evita que la imagen se repita */
+    background-repeat: no-repeat; 
+}
+
+#button:hover {
+    /* Cambia el color de fondo al pasar el ratón */
+    background-color: #333; 
+}
+.Contraportada {
+    background-color: #000;
+    color: #fff;
+    z-index: 100;
+    position: relative; /* Asegura que la posición sea relativa */
+}
+
+
+.boton-flotante {
+    position: fixed;
+    bottom: 20px;   
+    right: 20px;
+    z-index: 1000;
+    /* Estilos visibles por defecto */
+}
+
+/* Ocultar el botón flotante cuando se llegue a la contraportada */
+.contraportada:target .boton-flotante {
+    pointer-events: none; /* Deshabilita interacción del botón */
+    opacity: 0; /* Hace el botón transparente */
+    transition: opacity 0.3s ease; /* Transición para suavizar el efecto */
+}
+
+
+
+
+/* Media Queries */
+@media (max-width: 1200px) {
+    .main_section, .main_section_3 {
+        flex-wrap: wrap; /* Ajusta el contenido para dispositivos más pequeños */
+    }
+
+    .column, .column3 {
+        width: 45%;
+    }
+}
+
+@media (max-width: 768px) {
+    .column, .column3 {
+        width: 100%;
+    }
+
+    nav ul li {
+        display: block;
+        margin-bottom: 5px;
+    }
+
+    .intro p {
+        width: 100%;
+        font-size: 20px;
+    }
+
+    .logo_utp {
+        width: 100px;
+    }
+}
+
+@media (max-width: 480px) {
+    .encabezado, nav ul, .footer, .container {
+        text-align: center;
+    }
+
+    .buttons button {
+        width: 100%;
+    }
+
+    .main_section, .main_section_3 {
+        padding: 20px; /* Reduce el padding para móviles */
+    }
+
+    .column, .column3 {
+        margin: 10px 0; /* Ajusta el margen para columnas en móviles */
+        padding: 15px; /* Ajusta el padding para columnas en móviles */
+    }
+
+    #button {
+        right: 20px; /* Ajusta la posición del botón para móviles */
+        bottom: 20px;
+        padding: 10px;
+        background-size: 30px; /* Ajusta el tamaño de la imagen en el botón para móviles */
+        padding-right: 40px;
+    }
+}
+.logout-btn {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: #c8102e;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 1000;
+}
+.buttons {
+    text-align: center; 
+}
+
+.buttons button {
+    background-color: black; 
+    color: white; 
+    border: 2px solid white;
+    padding: 10px 20px; 
+    margin: 10px; 
+    border-radius: 10px; 
+    cursor: pointer; 
+    transition: background-color 0.3s, color 0.3s; 
+}
+.buttons button:hover {
+    background-color: white;
+    color: black; 
+}

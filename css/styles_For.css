@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0d7d7;
+    padding: 50px 150px 50px 150px;
+}
+.todo {
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    color: #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+form {
+    width: 100%;
+    padding: 25px;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+h1 {
+    color: #c8102e;
+    text-align: left;
+}
+form p {
+    margin-bottom: 10px;
+}
+form label {
+    font-weight: bold;
+}
+form input[type="text"],
+form input[type="email"],
+form input[type="date"],
+form select,
+form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+form input[type="submit"] {
+    background-color: #c8102e;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+p {
+    font-weight: bold;
+}
+.error {
+    color: red;
+    font-size: 0.8em;
+    margin-top: 2px;
+    display: block;
+}
+#mensaje-exito {
+    color: red;
+    font-size: 1.2em;
+    margin-top: 20px;
+    display: block;
+}
+/* Estilos para el recuadro de éxito */
+#recuadro-exito {
+    display: none; /* Oculto por defecto */
+    position: fixed; /* Fijo en la pantalla */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 40px; /* Aumentar el padding para hacerlo más grande */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    text-align: center;
+    z-index: 1000; /* Para que esté por encima de otros elementos */
+    width: 400px; /* Ancho del recuadro */
+}
+#recuadro-exito .icono img {
+    width: 70px; /* ajusta el ancho de la imagen */
+    height: auto; /* ajusta la altura automáticamente */
+}
+#recuadro-exito .mensaje {
+    color: rgb(7, 7, 7);
+    font-size: 1.5em; /* Tamaño del mensaje */
+    margin-top: 10px;
+}
+#recuadro-exito .boton-aceptar {
+    background-color: rgb(160, 4, 4);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    font-size: 1em;
+}
+#recuadro-exito .boton-aceptar:hover {
+    background-color: rgb(160, 4, 4);
+}
+.logout-btn {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: #c8102e;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 1000;
+}
+.image-container {
+    flex: 1;
+    text-align: center;
+    margin-top: 13%; 
+}
+.image-container img {
+    height: auto;
+    border-radius: 8px;
+}

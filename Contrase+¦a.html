@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="Imagenes/utpcad.ico">
+    <link rel="stylesheet" href="css/styles_Con.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <title>Olvido Contraseña</title>
+    <script src="Archivos/contraseña.js"></script>
+</head>
+<body>
+    <div class="todo">
+        <div class="login-container">
+            <div class="image-section">
+                <img src="Imagenes/olvidaste_contraseña.png" alt="Logoutp">
+            </div>
+            <div class="form-section">
+                <h2>Restablecer Contraseña</h2>
+                <form action="Contraseña.php" method="POST" id="formulario" name="formulario" onsubmit="return validarFormulario(event);">
+                    <div class="form-row">
+                        <div class="form-column">
+                            <div class="input-container">
+                                <i class="fas fa-user icon"></i>
+                                <input type="text" id="username" name="username" placeholder="Ingrese su Usuario" value="">
+                            </div>
+                            <span class="error" id="error-username"></span>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-column">
+                            <div class="input-container">
+                                <i class="fas fa-id-card icon"></i>
+                                <input type="text" id="dni" name="dni" placeholder="Ingrese su DNI" value="">
+                            </div>
+                            <span class="error" id="error-dni"></span>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-column">
+                            <div class="input-container">
+                                <i class="fas fa-lock icon"></i>
+                                <input type="password" id="newPassword" name="newPassword" placeholder="Nueva Contraseña" >
+                            </div>
+                            <span class="error" id="error-newPassword"></span>
+                        </div>
+                    </div>
+                    <div class="form-row"> 
+                        <div class="form-column">
+                            <div class="input-container">
+                                <i class="fas fa-lock icon"></i>
+                                <input type="password" id="confirmPassword" name="confirmPassword" placeholder="Confirmar Contraseña" >
+                            </div>
+                            <span class="error" id="error-confirmPassword"></span>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn">Actualizar Contraseña</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

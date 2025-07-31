@@ -1,0 +1,126 @@
+body {
+    font-family: sans-serif;
+    background-color: #e0d7d7;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.login-container {
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 35%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin-left: 120px;
+}
+
+h2 {
+    color: #bc1a1a;
+}
+
+.input-container {
+    position: relative;
+    width: 60%;
+    margin: 10px auto;
+}
+
+.input-container .icon {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #000000;
+}
+
+.input-container input[type="text"],
+.input-container input[type="password"],
+.input-container input[type="email"] {
+    width: 100%;
+    padding: 10px 10px 10px 35px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.btn {
+    margin: 10px;
+    background-color: #a52424;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    width: 50%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.btn:hover {
+    background-color: #020807;
+}
+
+.signup-link {
+    margin-top: 20px;
+}
+
+.signup-link a {
+    color: #b83636;
+    text-decoration: none;
+}
+
+.registro_imagen {
+    margin-right: 100px;
+}
+
+.error {
+    color: red;
+    font-size: 0.8em;
+    margin-top: 2px;
+    display: block;
+    text-align: left; /* Asegura que el texto esté alineado a la izquierda */
+}
+
+/* Estilos para el recuadro de éxito */
+#recuadro-exito {
+    display: none; /* Oculto por defecto */
+    position: fixed; /* Fijo en la pantalla */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 40px; /* Aumentar el padding para hacerlo más grande */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    text-align: center;
+    z-index: 1000; /* Para que esté por encima de otros elementos */
+    width: 400px; /* Ancho del recuadro */
+}
+
+#recuadro-exito .icono img {
+    width: 70px; /* ajusta el ancho de la imagen */
+    height: auto; /* ajusta la altura automáticamente */
+}
+
+#recuadro-exito .mensaje {
+    color: rgb(7, 7, 7);
+    font-size: 1.5em; /* Tamaño del mensaje */
+    margin-top: 10px;
+}
+
+#recuadro-exito .boton-aceptar {
+    background-color: rgb(160, 4, 4);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    font-size: 1em;
+}
+
+#recuadro-exito .boton-aceptar:hover {
+    background-color: rgb(180, 4, 4);
+}
